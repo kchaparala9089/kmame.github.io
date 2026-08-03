@@ -1,3 +1,19 @@
-theme: jekyll-theme-minimal
-title: temp
-description: Hi!
+# Site Settings
+title: Your Name
+description: Full Stack Developer & Tech Enthusiast
+baseurl: "" # Leave empty if your repo is named 'username.github.io'
+url: "https://username.github.io" # Replace 'username' with your GitHub handle
+
+# Theme Selection (Options: minima, cayman, pages-themes/architect, pages-themes/tactile, etc.)
+theme: minima
+
+# Author Information
+author:
+  name: Your Name
+  email: your.email@example.com
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
